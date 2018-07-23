@@ -1,0 +1,46 @@
+
+header {
+	background-color: white;
+	justify-content: center;
+	text-align: center;
+}
+body {
+	background-color: #E6E6E6;
+}
+.wrap {
+    display: -webkit-flex;
+    display: flex;
+	justify-content: center;
+}
+.sidebox {
+	width: auto;
+	margin: 1em;
+	padding: 3ex;
+	background-color: white;
+}
+.mainbox {
+	background-color: white;
+	margin:1em;
+	padding: 1em;
+	width:50%;
+	height:1000px
+
+}
+.button01{
+     display: block;
+     display: table-cell;
+     margin:0 auto;
+     width: 250px;
+     height:70px;
+     line-height: 70px;
+     color: #FFF;
+     text-decoration: none;
+     text-align: center;
+     background-color: #f39800; /*ボタン色*/
+     /* border-radius: 5px; /*角丸*/
+     /* -webkit-transition: all 0.5s;
+     transition: all 0.5s;*/
+}
+.button01:hover{
+     background-color: #f9c500; /*ボタン色*/
+}
